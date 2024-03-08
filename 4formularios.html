@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Cadastro de Alunos</h1>
+    <form>
+        <p><i>* Campos Obrigatórios</i></p>
+        <div>
+            <label for="nome">Nome:* </label>
+            <input type="text" id="nome" required autocomplete>
+        </div>
+        <div>
+            <label for="email">E-mail:* </label>
+            <input type="email" id="email"required autocomplete>
+        </div>
+        <div>
+            <label for="senha">Senha:* </label>
+            <input type="password" id="senha" required>
+        </div>
+        <div>
+            <label for="tel">Telefone:* </label>
+            <input type="tel" id="tel"required>
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="usuario_msg"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+        <label for="curriculo">Currículo:</label>
+        <input type="file" id="curriculo" name="curriculo" required
+autocomplete>
+    </form>
+
+    
+</body>
+</html>

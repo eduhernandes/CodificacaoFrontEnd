@@ -9,18 +9,7 @@
     color: var(--fontColor);
     font-family: helvetica;
 }
-/*
-A pseudo-classe :root é utilizada para selecionar o elemento raiz do documento HTML, ou seja, o elemento HTML. Ela é útil para definir variáveis CSS globais, que podem ser utilizadas em todo o documento.
-:root {
-  --cor-fundo: #f2f2f2;
-}
-E então, em qualquer parte do seu CSS, você pode utilizar essa variável:
-body {
-  background-color: var(--cor-fundo);
-}
-Por exemplo, se você quiser definir uma cor padrão para o fundo de todo o seu site, você pode utilizar a pseudo-classe :root para definir uma variável CSS global:
-https://cursos.alura.com.br/forum/topico-funcionalidade-root-294583#:~:text=A%20pseudo%2Dclasse%20%3Aroot%20%C3%A9,utilizadas%20em%20todo%20o%20documento.
-*/
+
 
 body{
     background: var(--bg);

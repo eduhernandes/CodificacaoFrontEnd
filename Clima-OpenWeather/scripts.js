@@ -1,6 +1,6 @@
 //Variáveis eseleções de elementos
 const apiKey = "9ff9cf221aa09c6d6d4b4ab912b7601f";
-//const apiUnsplash = "https://source.unsplash.com/1600x900/?";
+const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search");
@@ -72,7 +72,7 @@ const showWeatherData = async (city) => {
   windElement.innerText = `${data.wind.speed}km/h`;
 
   // Change bg image
-  // document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
+  document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
 
   weatherContainer.classList.remove("hide");
 };

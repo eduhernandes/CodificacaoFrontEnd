@@ -1,4 +1,4 @@
-//Variáveis eseleções de elementos
+//Variáveis e seleções de elementos
 //https://api.openweathermap.org/data/2.5/weather?q=Paulista&units=metric&appid=9ff9cf221aa09c6d6d4b4ab912b7601f&lang=pt_br
 const apiKey = "9ff9cf221aa09c6d6d4b4ab912b7601f";
 const apiUnsplash = "https://source.unsplash.com/1600x900/?";
@@ -82,6 +82,8 @@ const showWeatherData = async (city) => {
   weatherContainer.classList.remove("hide");
 };
 
+
+//Eventos
 searchBtn.addEventListener("click", async (e) => {
   e.preventDefault();
 

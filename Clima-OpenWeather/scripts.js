@@ -1,4 +1,5 @@
 //Variáveis eseleções de elementos
+//https://api.openweathermap.org/data/2.5/weather?q=Paulista&units=metric&appid=9ff9cf221aa09c6d6d4b4ab912b7601f&lang=pt_br
 const apiKey = "9ff9cf221aa09c6d6d4b4ab912b7601f";
 const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
@@ -67,6 +68,10 @@ const showWeatherData = async (city) => {
   weatherIconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`
+  );
+  countryElement.setAttribute(
+    "src", 
+    `https://flagsapi.com/${data.sys.country}/flat/64.png`
   );
   umidityElement.innerText = `${data.main.humidity}%`;
   windElement.innerText = `${data.wind.speed}km/h`;

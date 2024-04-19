@@ -13,10 +13,10 @@ body{
     height: 100vh; /* equivalente ao 100% */
 }
 
-/* Esconder algumas áreas quando necessário
+/* Esconder algumas áreas quando necessário */
 .hide{ 
     display: none;
-} */
+}
 
 .container{
     background-color: #5c54ed;

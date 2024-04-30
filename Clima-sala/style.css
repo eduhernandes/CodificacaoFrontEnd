@@ -53,7 +53,9 @@ body{
 }
 
 /* Clima */
-#weather-data{
+#weather-data,
+#error-message,
+#loader{
     border-top: 1px solid #fff;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
@@ -73,6 +75,11 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0.6rem 0;
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 #details-container{

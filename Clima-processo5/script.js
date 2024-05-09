@@ -48,6 +48,7 @@ const showWeatherData = async(city) => {
 
     const data = await getWeatherData(city);
 
+    //Verifica se a cidade existe e faz o tratamento de erro
     if(data.cod === "404"){
         showErrorMessage(city);
         return

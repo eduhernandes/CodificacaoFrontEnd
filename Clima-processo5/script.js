@@ -50,6 +50,7 @@ const showWeatherData = async(city) => {
 
     //Verifica se a cidade existe e faz o tratamento de erro
     if(data.cod === "404"){
+      window.alert("Cidade não encontrada");
         showErrorMessage(city);
         return
     }
